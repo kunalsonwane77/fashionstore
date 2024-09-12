@@ -6,7 +6,21 @@ const Home = () => {
   return (
     <div>
         <h1>Fashionstor</h1>
-        <Card/>
+        <Card 
+         title="Bags"
+         discription="sky bag of with waterproof bag"
+         star={true}/>
+
+        <Card 
+         title="Bags"
+         discription="sky bag of with waterproof bag"
+         star={false}/>
+
+           <Card
+         title="Bags"
+         discription="sky bag of with waterproof bag"
+         star={false}/>
+        
     </div>
   )
 }
