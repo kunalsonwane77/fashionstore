@@ -3,7 +3,7 @@ import "./Card.css"
 import imgstar from "./two.png"
 import fourimg from "./four.png"
 
-const Card = ({imgurl,title,discription,star}) => {
+const Card = ({imgurl,title,discription,star,price}) => {
 
  
  
@@ -12,9 +12,10 @@ const Card = ({imgurl,title,discription,star}) => {
     <div className='card'>
         <img src={imgurl} alt="url" className='imgcard'/>
 
-        
+
         <h1 className='cardtitle'>{title}</h1>
         <p>{discription}</p>
+        <b className='pirce'>₹ {price}</b>
 
         <img src={star ? imgstar :fourimg } alt="img" className='star'/>
        
