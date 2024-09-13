@@ -1,0 +1,8 @@
+.bagcardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.head{
+    margin-left: 20px;
+}

@@ -20,4 +20,10 @@
     position: absolute ;
     top: 0;
     right: 10px;
-}   
+}  
+.imgcard{
+    width: 250px;
+    display: block;
+    margin: auto;
+  
+} 

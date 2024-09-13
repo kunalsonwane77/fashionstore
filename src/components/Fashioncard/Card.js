@@ -3,13 +3,16 @@ import "./Card.css"
 import imgstar from "./two.png"
 import fourimg from "./four.png"
 
-const Card = ({title,discription,star}) => {
+const Card = ({imgurl,title,discription,star}) => {
 
  
  
 
   return (  
     <div className='card'>
+        <img src={imgurl} alt="url" className='imgcard'/>
+
+        
         <h1 className='cardtitle'>{title}</h1>
         <p>{discription}</p>
 
