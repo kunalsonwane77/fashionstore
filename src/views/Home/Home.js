@@ -29,7 +29,7 @@ const bags = [
   {
     imgurl: "https://skybags.co.in/cdn/shop/products/BPDRP4LBL_1_1800x1800.webp?v=1693895124",
     title: "DripPro",
-    discription: "Skybags Drip Pro 04 Backpack Light Blue",
+    discription: "Skybags Drip Pro 04 Backpack Light Blue zig design",
     star: true,
     price: 540
   },
@@ -43,9 +43,6 @@ const Home = () => {
   return (
     <div>
       <h1 className='head'>Fashionstore</h1>
-
-
-
 
       <div className='bagcardcontainer'>
         {bags.map((bagdetails) => {
